@@ -188,8 +188,7 @@
       const unlockAudio = () => {
         song.muted = false;
         song.play();
-        document.removeEventListener("click", unlockAudio);
-        document.removeEventListener("touchstart", unlockAudio);
+        
       };
 
       window.addEventListener("load", () => {
